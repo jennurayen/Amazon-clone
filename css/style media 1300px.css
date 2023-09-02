@@ -1,0 +1,9 @@
+@media screen and (max-width:1300px) {
+    .itemContener:nth-child(3){
+        display: none;
+    }
+    .itemContener, .singinSection {
+        width: 32%;
+        /* background-color: green; */
+    }
+}

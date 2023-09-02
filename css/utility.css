@@ -1,0 +1,58 @@
+/* border */
+.border_hov{
+    border: 1px solid rgba(255, 255, 255, 0) ;
+    padding: 0 12px;
+}
+.border_hov:hover{
+    border: 1px solid white;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+main section{
+    position: relative;
+}
+
+.seemore{
+    color: rgb(0, 89, 124);
+}
+.seemore:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.0rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+p {
+    font-size: .9rem;
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.link{
+    color: white;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+.drop-down-icon img{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 5px;
+}
